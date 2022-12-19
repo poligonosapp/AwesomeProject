@@ -8,6 +8,20 @@ import React from "react";
 import { View, StyleSheet } from "react-native";
 // import { Map, TileLayer } from "react-leaflet";
 
+function MyComponent() {
+  const map = useMap();
+  console.log("map center:", map.getCenter());
+  return null;
+}
+
+function MyMapComponent() {
+  return (
+    <MapContainer center={[50.5, 30.5]} zoom={13}>
+      <MyComponent />
+    </MapContainer>
+  );
+}
+
 const MapExample = () => {
 
     const s = "pk.eyJ1IjoicG9saWdvbm9zYXBwIiwiYSI6ImNrcGE4ejdwMTBmb2YycHA5ZnVieDF2b2wifQ.UPvIippcuulahfvjZ3LAHg";
