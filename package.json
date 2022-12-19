@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "webpack:serve": "webpack serve --mode=development",
+    "serve": "webpack serve --mode=development",
     "build": "webpack --config dev.config.js --mode=development",
     "start": "expo start",
     "android": "expo start --android",
