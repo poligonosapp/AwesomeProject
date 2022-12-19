@@ -11,9 +11,9 @@ import { View, StyleSheet } from "react-native";
 const MapExample = () => {
 
     const s = "pk.eyJ1IjoicG9saWdvbm9zYXBwIiwiYSI6ImNrcGE4ejdwMTBmb2YycHA5ZnVieDF2b2wifQ.UPvIippcuulahfvjZ3LAHg";
-    const x;
-    const y;
-    const z;
+    const x = 100;
+    const y = 100;
+    const z = 100;
 
   return (
     <View style={styles.container}>
